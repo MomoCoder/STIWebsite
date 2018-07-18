@@ -1,0 +1,293 @@
+/* for the custom fonts */
+@font-face {
+	font-family: Poppins;
+	src: url('../font/Poppins-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url('../font/Poppins-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* for the global style */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+body {
+	font-size: 100%;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: Poppins;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 60px;
+	font-family: Poppins;
+	font-weight: bold;
+}
+
+p {
+	font-size: 30px;
+	font-family: Poppins;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	font-family: Poppins;
+	font-weight: normal;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+button {
+	width: 300px;
+	height: 80px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 30px;
+	font-family: Poppins;
+	font-weight: normal;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* for the landing page */
+
+.landingPage {
+	background-image: url("../img/pic_1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+header .landingNav {
+	padding-top: 30px;
+}
+
+.landingNav img {
+	width: 145px;
+	display: inline-block;
+}
+
+header .landingNav ul {
+	padding-top: 3%;
+	float: right;
+}
+
+.landingNav ul li {
+	display: inline-block;
+}
+
+.landingNav ul li a {
+	text-decoration: none;
+	margin-left: 81px;
+}
+
+.landingNav li .active {
+	color: #FFF200;
+}
+
+.landingNav h1 {
+	margin-top: 50vh;
+	color: #fff;
+}
+
+.landingNav h1 span {
+	color: #FFF200;
+}
+
+.landingNav p {
+	color: #fff;
+}
+
+/* for the welcome page */
+
+.welcome {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.welcome h2 {
+	color: #051521;
+	margin-bottom: 30px;
+}
+
+.welcome p {
+	color: #333333;
+	margin-bottom: 30px;
+}
+
+.welcome button {
+	text-align: center;
+	color: #fff;
+	background-color: #0F5FA3;
+	margin-bottom: 40px;
+}
+
+/* for ythe course */
+
+.course {
+	background-color: #051521;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.course h2 {
+	color: #fff;
+}
+
+.course .flex-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 70px;
+	margin-top: 60px;
+}
+
+.course .flex-container div {
+	width: 350px;
+	height: 350px;
+	background-color: #0F5FA3;
+	color: #fff;
+	margin-left: 15px;
+	border-radius: 10px;
+}
+
+.flex-container h2 {
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.course button {
+	text-align: center;
+	color: #fff;
+	background-color: #FFF200;
+	margin-bottom: 170px;
+}
+
+/* for the video presentation */
+
+.videoPresent {
+	background-color: #051521;
+}
+
+.videoPresent iframe{
+	width: 628px;
+	height: 460px;
+	margin-top: 57px;
+	margin-right: 15px;
+	display: inline-block;
+	float: left;
+}
+
+.videoContent {
+	text-align: right;
+	margin-bottom: 105px;
+}
+
+.videoPresent h2 {
+	color: #FFF200;
+}
+
+.videoPresent p {
+	color: #fff;
+}
+
+
+/* for the float */
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+/* for the timer on enrollment */
+
+.enrollTime {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.enrollTime h1 {
+	color: #051521;
+}
+
+.enrollTime p {
+	color: #333333;
+	margin-bottom: 90px;
+}
+
+.enrollTime button {
+	text-align: center;
+	color: #fff;
+	background-color: #0F5FA3;
+	margin-top: 90px;
+	margin-bottom: 135px;
+}
+
+/* footer connect for social media */
+.connect {
+	background-color: #051521;
+	color: #FFF200;
+	text-align: center;
+}
+
+.connect img {
+	display: inline-block;
+	width: 110px;
+	height: auto;
+	margin: 20px 0 auto 40px;
+}
+
+/* for contact info */
+.contacts {
+	color: #333333;
+}
+
+.contacts p:nth-child(1) {
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.contacts p:nth-child(2),
+.contacts p:nth-child(3) {
+	margin-left: 15px;
+}
+
+.contacts .copyright {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
