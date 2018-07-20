@@ -80,6 +80,7 @@ button {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 100vh;
 }
 
@@ -270,6 +271,10 @@ header .landingNav ul {
 	margin: 20px 0 auto 40px;
 }
 
+.socialMedia {
+	cursor: pointer;
+}
+
 /* for contact info */
 .contacts {
 	color: #333333;
@@ -291,3 +296,59 @@ header .landingNav ul {
 	margin-bottom: 15px;
 	margin-top: 30px;
 }
+
+/* for the coming soon page */
+
+.goBack {
+	width: 50px;
+	height: auto;
+	margin-top: 50px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.comingPage {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.comingPage h1 {
+	color: #0F5FA3;
+	text-shadow: 2px 5px 5px rgba(0,0,0, .35);
+}
+
+.comingPage h1 span {
+	color: rgba(141, 198, 246, .86);
+}
+
+.comingPage p {
+	color: rgba(141, 198, 246, .86);
+	margin: 0px;
+}
+
+input[type="email"] {
+	display: inline-block;
+	width: 650px;
+	height: 60px;
+	background-color: transparent;
+	border: 2px solid #0F5FA3;
+	font-size: 30px;
+	font-family: Poppins;
+	font-weight: normal;
+	color: #0F5FA3;
+	vertical-align: middle;
+}
+
+.comingPage .notifyMe {
+	width: 150px;
+	height: 65px;
+	text-align: center;
+	color: #333333;
+	font-size: 20px;
+	font-family: Poppins;
+	font-weight: normal;
+	background-color: rgba(141, 198, 246, .86);
+	border-radius: 0px;
+	vertical-align: middle;
+}
+
