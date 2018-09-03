@@ -1,7 +1,10 @@
-// for the current date
-var currentDate = new Date();
+
 // when the windows load it will perform this
 window.onload = function() {
+
+	// for the current date
+	var currentDate = new Date();
+
 	// to display the time
 	var displayTime = document.getElementById('countDown');
 
@@ -33,4 +36,35 @@ window.onload = function() {
 	}
 	// make a function that will change every 1 sec
 	setInterval(countDownSystem, 1000);
+}
+
+function comingSoon() {
+	alert('This Page is still in development')
+}
+
+function fbClick() {
+	var fbBox = confirm('Are you sure you ?');
+	if (fbBox == true) {
+		window.location.assign("https://www.facebook.com/sti.edu");
+	} else {
+		alert('Thank you for staying');
+	}
+}
+
+function twClick() {
+	var twBox = confirm('Are you sure you ?');
+	if (twBox == true) {
+		window.location.assign("https://twitter.com/sticollege?lang=en");
+	} else {
+		alert('Thank you for staying');
+	}
+}
+
+function ytClick() {
+	var ytBox = confirm('Are you sure you ?');
+	if (ytBox == true) {
+		window.location.assign("https://www.youtube.com/channel/UClwI5kKZkrUGSdyKaXCyacQ");
+	} else {
+		alert('Thank you for staying');
+	}
 }

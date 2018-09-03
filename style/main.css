@@ -28,19 +28,19 @@ body {
 
 h1 {
 	font-size: 100px;
-	font-family: Poppins;
+	font-family: Poppins, Sans-serif;
 	font-weight: bold;
 }
 
 h2 {
 	font-size: 60px;
-	font-family: Poppins;
+	font-family: Poppins, Sans-serif;;
 	font-weight: bold;
 }
 
 p {
 	font-size: 30px;
-	font-family: Poppins;
+	font-family: Poppins, Sans-serif;;
 	font-weight: normal;
 }
 
@@ -48,7 +48,7 @@ a {
 	text-decoration: none;
 	font-size: 20px;
 	color: #fff;
-	font-family: Poppins;
+	font-family: Poppins, Sans-serif;;
 	font-weight: normal;
 
 }
@@ -64,7 +64,7 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 	font-size: 30px;
-	font-family: Poppins;
+	font-family: Poppins, Sans-serif;;
 	font-weight: normal;
 }
 
@@ -160,23 +160,30 @@ header .landingNav ul {
 	color: #fff;
 }
 
-.course .flex-container {
+.course #flex-container {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 70px;
 	margin-top: 60px;
 }
 
-.course .flex-container div {
+.course #flex-container div {
 	width: 350px;
 	height: 350px;
 	background-color: #0F5FA3;
 	color: #fff;
 	margin-left: 15px;
 	border-radius: 10px;
+	overflow: hidden;
+	transform: all 2s ease;
 }
 
-.flex-container h2 {
+.course #flex-container div:hover {
+	transform: scale(1.5);
+	box-shadow: 0px 0px 5px rgba(0,0,0,.30);
+}
+
+#flex-container h2 {
 	margin-top: 50px;
 	margin-bottom: 25px;
 }
